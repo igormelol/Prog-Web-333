@@ -1,182 +1,136 @@
-📚 Conteúdo dos Módulos
+---
 
-🧩 Módulo I – Introdução ao JavaScript
+# 📚 Conteúdo dos Módulos
 
-Sintaxe básica
+---
 
-Variáveis (var, let, const)
+## 🧩 **Módulo I – Introdução ao JavaScript**
 
-Tipos de dados
+* Sintaxe básica
+* Variáveis (`var`, `let`, `const`)
+* Tipos de dados
+* Inserindo JavaScript no HTML
+* Primeiros scripts com `alert()` e manipulação simples de página
+* Bom uso de `script` no `<head>` e no final do `<body>`
 
-Inserindo JavaScript no HTML
+📄 *Referência:* 
 
-Primeiros scripts com alert() e manipulação simples de página
+---
 
-Bom uso de script no <head> e no final do <body>
+## 🎨 **Módulo II – Projetos Iniciais em JavaScript**
 
-📄 Referência: 
+* Projetos práticos:
 
-Lógica de Programação Linguagem…
+  * ✅ *Hello World* com `alert()`
+  * ✅ *Alterar cor de fundo* com `<input type="color">`
+  * ✅ *Relógio digital* usando `Date()` e `setInterval()`
+  * ✅ *Contador interativo* com funções `increment` e `decrement`
+* Manipulação com `querySelector`
+* Estrutura separada em HTML, CSS e JS
 
-🎨 Módulo II – Projetos Iniciais em JavaScript
+📄 *Referência:* 
 
-Projetos práticos:
+---
 
-✅ Hello World com alert()
+## 🔤 **Módulo III – Strings e Manipulação de Texto**
 
-✅ Alterar cor de fundo com <input type="color">
+* O que é uma *string*
+* Aspas simples, duplas e crase
+* Template strings e interpolação
+* Métodos úteis de string
+* Quatro formas de concatenar:
 
-✅ Relógio digital usando Date() e setInterval()
+  * `+`
+  * `join()`
+  * `concat()`
+  * Template literals (`` `texto ${variavel}` ``)
+* Atividades práticas: cartões, frases, pedidos, títulos de filmes
 
-✅ Contador interativo com funções increment e decrement
+📄 *Referência:* 
 
-Manipulação com querySelector
+---
 
-Estrutura separada em HTML, CSS e JS
+## ➗ **Módulo IV – Operadores, Escopos e JavaScript no HTML**
 
-📄 Referência: 
+* Operadores:
 
-Lógica de Programação Linguagem…
+  * incremento/decremento `++` / `--`
+  * operadores de atribuição (`+=`, `-=`, etc.)
+* Escopo:
 
-🔤 Módulo III – Strings e Manipulação de Texto
+  * Global
+  * Local
+  * De bloco (`let` e `const`)
+* Como adicionar JavaScript no HTML
+* Vantagens do JavaScript
+* Interações com navegador (BOM)
 
-O que é uma string
+📄 *Referência:* 
 
-Aspas simples, duplas e crase
+---
 
-Template strings e interpolação
+## 🔢 **Módulo V – Conversão de Dados e Diálogos (Alert, Confirm, Prompt)**
 
-Métodos úteis de string
+* `parseInt()`
+* `parseFloat()`
+* `Number()`
+* Template literals avançado
+* Caixas de diálogo:
 
-Quatro formas de concatenar:
+  * `alert()`
+  * `confirm()`
+  * `prompt()`
+* Diferença entre BOM e DOM na manipulação de formulários
 
-+
+📄 *Referência:* 
 
-join()
+---
 
-concat()
+## 🔁 **Módulo VI – Laços e Manipulação de Arrays**
 
-Template literals (`texto ${variavel}`)
+* Laços:
 
-Atividades práticas: cartões, frases, pedidos, títulos de filmes
+  * `for`
+  * `for...in`
+  * `for...of`
+  * `while`
+  * `do...while`
+* Como iterar corretamente arrays
+* Perigos do `for...in` (herança)
+* Métodos de arrays:
 
-📄 Referência: 
+  * `push()`, `pop()`
+  * `shift()`, `unshift()`
+  * `slice()`, `splice()`
+  * `concat()`
+* Manipulação prática de listas
 
-Lógica de Programação Linguagem…
+📄 *Referência:* 
 
-➗ Módulo IV – Operadores, Escopos e JavaScript no HTML
+---
 
-Operadores:
+## 🧱 **Módulo VII – Revisão + Fundamentos de POO**
 
-incremento/decremento ++ / --
+* Revisão geral:
 
-operadores de atribuição (+=, -=, etc.)
+  * Variáveis
+  * Funções
+  * Escopo
+  * Arrays e Objetos
+  * Controle de fluxo
+  * DOM
+* Os 4 pilares da POO:
 
-Escopo:
+  1. Abstração
+  2. Encapsulamento
+  3. Herança
+  4. Polimorfismo
 
-Global
+📄 *Referência:*
 
-Local
+---
 
-De bloco (let e const)
-
-Como adicionar JavaScript no HTML
-
-Vantagens do JavaScript
-
-Interações com navegador (BOM)
-
-📄 Referência: 
-
-Lógica de Programação Linguagem…
-
-🔢 Módulo V – Conversão de Dados e Diálogos (Alert, Confirm, Prompt)
-
-parseInt()
-
-parseFloat()
-
-Number()
-
-Template literals avançado
-
-Caixas de diálogo:
-
-alert()
-
-confirm()
-
-prompt()
-
-Diferença entre BOM e DOM na manipulação de formulários
-
-📄 Referência: 
-
-Lógica de Programação Linguagem…
-
-🔁 Módulo VI – Laços e Manipulação de Arrays
-
-Laços:
-
-for
-
-for...in
-
-for...of
-
-while
-
-do...while
-
-Como iterar corretamente arrays
-
-Perigos do for...in (herança)
-
-Métodos de arrays:
-
-push(), pop()
-
-shift(), unshift()
-
-slice(), splice()
-
-concat()
-
-Manipulação prática de listas
-
-📄 Referência: 
-
-Lógica de Programação Linguagem…
-
-🧱 Módulo VII – Revisão + Fundamentos de POO
-
-Revisão geral:
-
-Variáveis
-
-Funções
-
-Escopo
-
-Arrays e Objetos
-
-Controle de fluxo
-
-DOM
-
-Os 4 pilares da POO:
-
-Abstração
-
-Encapsulamento
-
-Herança
-
-Polimorfismo
-
-📄 Referência:
-
-🧠 Como Estudar com Este Material
+# 🧠 Como Estudar com Este Material
 
 ✅ Leia os módulos em ordem
 ✅ Reproduza todos os códigos manualmente
@@ -184,22 +138,22 @@ Polimorfismo
 ✅ Teste tudo no navegador usando o console
 ✅ Crie seu próprio repositório com todos os projetos práticos
 
-🚀 Projetos Sugeridos (com base nos PDFs)
+---
 
-✅ Relógio digital
+# 🚀 Projetos Sugeridos (com base nos PDFs)
 
-✅ Alterador de cor
+* ✅ Relógio digital
+* ✅ Alterador de cor
+* ✅ Contador
+* ✅ Simulador de pedido
+* ✅ Calculadora simples
+* ✅ CRUD de tarefas usando arrays
+* ✅ Página interativa usando DOM
 
-✅ Contador
+---
 
-✅ Simulador de pedido
-
-✅ Calculadora simples
-
-✅ CRUD de tarefas usando arrays
-
-✅ Página interativa usando DOM
-
-📎 Licença
+# 📎 Licença
 
 Este repositório é de uso pessoal e educativo.
+
+
